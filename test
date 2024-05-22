@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tim's Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .main-content {
+            margin: 20px 0;
+        }
+        .bio, .writing, .teaching, .politics {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .bio h2, .writing h2, .teaching h2, .politics h2 {
+            color: #77aaff;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to Tim's World</h1>
+            <ul>
+                <li><a href="#bio">Biography</a></li>
+                <li><a href="#writing">Writing & Music</a></li>
+                <li><a href="#teaching">Teaching</a></li>
+                <li><a href="#politics">Politics</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="container">
+        <div class="main-content">
+            <section id="bio" class="bio">
+                <h2>Biography</h2>
+                <p>Hi, I'm Tim. I'm a high school English teacher and a college professor. I love science fiction and futurism, and I'm passionate about human dignity, women's rights, and supporting all LGBTQ communities and communities of color. I'm an atheist and a member of The Satanic Temple, advocating for fairness and equity. I'm also a loving husband and father of two wonderful children.</p>
+            </section>
+            <section id="writing" class="writing">
+                <h2>Writing & Music</h2>
+                <p>Writing is my passion, and I express myself through poetry and music. Inspired by Leonard Cohen and Ted Kooser, my work often explores themes of love, existentialism, and social justice. Check out some of my pieces below:</p>
+                <ul>
+                    <li><a href="link-to-poem-1.html">Poem 1</a></li>
+                    <li><a href="link-to-poem-2.html">Poem 2</a></li>
+                    <li><a href="link-to-music-1.html">Music Track 1</a></li>
+                </ul>
+            </section>
+            <section id="teaching" class="teaching">
+                <h2>Teaching</h2>
+                <p>As a teacher, I strive to inspire my students to think critically and creatively. I teach high school English and college courses, focusing on fostering a love for literature and empowering students to express themselves. Here are some of my favorite teaching resources:</p>
+                <ul>
+                    <li><a href="link-to-resource-1.html">Resource 1</a></li>
+                    <li><a href="link-to-resource-2.html">Resource 2</a></li>
+                </ul>
+            </section>
+            <section id="politics" class="politics">
+                <h2>Politics</h2>
+                <p>I'm deeply invested in political issues, particularly in how America can overcome its political fragmentation. I believe strongly in democratic socialism and work towards a fairer, more equitable society. Here are some causes and organizations I support:</p>
+                <ul>
+                    <li><a href="link-to-organization-1.html">Organization 1</a></li>
+                    <li><a href="link-to-organization-2.html">Organization 2</a></li>
+                </ul>
+            </section>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Tim's Personal Webpage</p>
+    </footer>
+</body>
+</html>
